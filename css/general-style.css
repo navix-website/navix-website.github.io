@@ -1,0 +1,9 @@
+.nav {
+  width: 25%;
+  float: left;
+  background-color: #00cc00;
+  text-align: center;
+}
+a {
+  font-size: 20px;
+}
