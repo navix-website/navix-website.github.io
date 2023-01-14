@@ -25,7 +25,7 @@
     }
 }
 /*The following line emphasizes that the styles are applied only when the screen size is lesser than that of a small laptop.*/
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     #logo {
         height: 24px;
         width: 30px;
