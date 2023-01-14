@@ -1,1 +1,36 @@
+/*General Styles*/
+/*Apply across all webpages.*/
 
+/*NAV*/
+/*The following line emphasizes that the styles are applied only when the screen size is atleast that of a small laptop.*/
+@media only screen and (min-width: 992px) {
+    #seperator {
+        border-right: 2px solid #ffffff;
+        padding: 0 15px 0 15px;
+        font-weight: 500;
+    }
+    #last {
+        padding: 0 15px 0 15px;
+        font-weight: 500;
+    }
+    #logo {
+        min-height: 24px;
+        min-width: 30px;
+        max-height: 36px;
+        max-width: 45px;
+    }
+    #company {
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+/*The following line emphasizes that the styles are applied only when the screen size is lesser than that of a small laptop.*/
+@media only screen and (max-width: 991px) {
+    #logo {
+        height: 24px;
+        width: 30px;
+    }
+    #company {
+        font-weight: 600;
+    }
+}
