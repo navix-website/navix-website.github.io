@@ -1,1 +1,16 @@
+All images are from non-copyright, free for use websites, such as Unsplash, Pexel, and Pixabay.
+This website has not been built for, and never will be used for, commercial purposes.
+While attributing the photographers of these photos is not required by all of the above-mentioned websites, the associated links and creators for the images used are all given below, as a token of gratitude.
+
+UNSPLASH:
+1. Photo by SpaceX: https://unsplash.com/photos/OHOU-5UVIYQ
+    [saved as rocket_launch2.jpg]
+    --> used in index.html for the carousel
+
+PEXELS:
+1. Photo by Pixabay: https://www.pexels.com/photo/space-rocket-launching-73871/
+    [saved as img/rocket_launch1.jpeg]
+    --> used in index.html for the carousel
+
+PIXABAY:
 
