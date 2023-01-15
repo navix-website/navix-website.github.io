@@ -1,8 +1,7 @@
 .carousel .carousel-item {
   height: 500px;
 }
-#carouselpn {
-    text-decoration: none;
-    color: #000000;
-    
+#carouselslide {
+    top: 50%;
+    transform: translateY(-50%);
 }
