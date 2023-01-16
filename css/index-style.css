@@ -15,7 +15,7 @@
         height: 40%;
     }
     #carouselslide {
-        top:45%;
+        top:50%;
         transform: translateY(-50%);
     }
 }
