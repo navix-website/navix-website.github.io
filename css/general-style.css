@@ -23,6 +23,11 @@
         font-size: 28px;
         font-weight: 600;
     }
+
+    #book {
+        height: 700px;
+    }
+
 }
 /*The following line emphasizes that the styles are applied only when the screen size is lesser than that of a small laptop.*/
 @media only screen and (max-width: 768px) {
