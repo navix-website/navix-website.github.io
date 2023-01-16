@@ -1,7 +1,21 @@
-.carousel .carousel-item{
-  height: 500px;
+@media only screen and (min-width: 992px) {
+    .carousel .carousel-item {
+        height: 500px;
+    }
+    #carouselslide {
+        top: 55%;
+        transform: translateY(-50%);
+    }
 }
-#carouselslide {
-    top: 50%;
-    transform: translateY(-50%);
+@media only screen and (max-width: 992px) {
+    .carousel img{
+        position: static;
+    }
+    .carousel .carousel-item{
+        height: 40%;
+    }
+    #carouselslide {
+        top:40%;
+        transform: translateY(-50%);
+    }
 }
