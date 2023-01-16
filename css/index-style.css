@@ -1,6 +1,9 @@
 .carousel .carousel-item{
   height: 500px;
 }
+.carousel-caption .carousel-control{
+    position: fixed;
+}
 #carouselslide {
     top: 50%;
     transform: translateY(-50%);
