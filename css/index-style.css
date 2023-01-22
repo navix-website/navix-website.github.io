@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     .carousel .carousel-item {
         height: 600px;
     }
@@ -7,7 +7,7 @@
         transform: translateY(-50%);
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .carousel img{
         position: static;
     }

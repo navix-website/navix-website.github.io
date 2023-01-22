@@ -3,14 +3,14 @@
 
 /*NAV*/
 /*The following line emphasizes that the styles are applied only when the screen size is atleast that of a small laptop.*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     #seperator {
         border-right: 2px solid #ffffff;
-        padding: 0 15px 0 15px;
+        padding: 0 10px 0 10px;
         font-weight: 500;
     }
     #last {
-        padding: 0 15px 0 15px;
+        padding: 0 0 0 10px;
         font-weight: 500;
     }
     #logo {
@@ -23,19 +23,17 @@
         font-size: 28px;
         font-weight: 600;
     }
-
-    #book {
-        height: 400px;
-    }
-
 }
 /*The following line emphasizes that the styles are applied only when the screen size is lesser than that of a small laptop.*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     #logo {
         height: 24px;
         width: 30px;
     }
     #company {
         font-weight: 600;
+    }
+    #last {
+        background-color: var(--bg-dark);
     }
 }
