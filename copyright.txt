@@ -4,14 +4,25 @@ While attributing the photographers of these photos is not required by all of th
 
 UNSPLASH:
 1. Photo by SpaceX: https://unsplash.com/photos/OHOU-5UVIYQ
-    [saved as rocket_launch2.jpg]
-    --> used in index.html for the carousel
+    [saved as rocket_launch2.jpeg]
 2. Photo by ActionVance: https://unsplash.com/photos/t7EL2iG3jMc
-    [saved as earth_from_space.jpg]
-    --> used in index.html for the carousel
+    [saved as earth_from_space1.jpeg]
 3. Photo by Dennis Degioanni: https://unsplash.com/photos/9wH624ALFQA
-    [saved as starry_sky.jpg]
-    --> used in index.html for the carousel
+    [saved as starry_sky.jpeg]
+4. Photo by SpaceX: https://unsplash.com/photos/tKs_2sBoqAg
+    [saved as rocket_on_ground1.jpeg]
+5. Photo by NASA: https://unsplash.com/photos/vhSz50AaFAs
+    [saved as earth_from_space2.jpeg]
+6. Photo by NASA: https://unsplash.com/photos/wAkLQnT2TC0
+    [saved as iss.jpeg]
+7. Photo by the New York Public Library: https://unsplash.com/photos/kvHhSroTNPY
+    [saved as astronaut_in_space.jpeg]
+8. Photo by SpaceX: https://unsplash.com/photos/9dF7pCyaM9s
+    [saved as rocket_on_ground2.jpeg]
+9. Photo by SpaceX: https://unsplash.com/photos/MEW1f-yu2KI
+    [saved as rockets_being_recycled.jpeg]
+10. Photo by SpaceX: https://unsplash.com/photos/yJv97tE7GDM
+    [saved as rocket_launch3.jpeg]
 
 PEXELS:
 1. Photo by Pixabay: https://www.pexels.com/photo/space-rocket-launching-73871/
