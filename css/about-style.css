@@ -1,0 +1,10 @@
+#attribution {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+#attribution_subcategory {
+    font-weight: bold;
+}
+#attribution_link {
+    text-decoration: none;
+}
