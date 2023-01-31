@@ -3,3 +3,16 @@
     padding-top: 1%;
     border-bottom: 1px solid #999999;
 }
+
+#H {
+    background: url(img/rocket_launch3.jpeg) no-repeat  top ; 
+    background-size: cover;
+    padding-bottom: 2%;
+    border-bottom: 0px solid #999999;
+}
+
+#HT {
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 50%;
+}
