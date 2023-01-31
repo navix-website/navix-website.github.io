@@ -13,46 +13,104 @@
         <a name="top"></a>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../img/logo.png" class="d-inline-block" id="logo">
-                <span class="align-middle" id="company">Navix</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item" id="seperator">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown" id="seperator">
-                        <a class="nav-link active dropdown-toggle" href="#" id="toursandpricing" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Tours &amp; Pricing
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="toursandpricing">
-                            <a class="dropdown-item text-white" aria-current="page" href="main.html">What We Offer</a>
-                            <a class="dropdown-item text-white-50" href="tour1.html">The Around the World Tour&#8482;</a>
-                            <a class="dropdown-item text-white-50" href="tour2.html">The Pinnacle Tour&#8482;</a>
-                            <a class="dropdown-item text-white-50" href="tour3.html">The ISS Tour&#8482;</a>
-                        </div>
-                    </li>
-                    <li class="nav-item" id="seperator">
-                        <a class="nav-link" href="../launches.html">Launches</a>
-                    </li>
-                    <li class="nav-item" id="seperator">
-                        <a class="nav-link" href="../training.html">Training</a>
-                    </li>
-                    <li class="nav-item" id="seperator">
-                        <a class="nav-link" href="../about.html">About</a>
-                    </li>
-                    <li class="nav-item" id="last">
-                        <a class="btn btn-primary d-none d-lg-block" href="../register.html" tabindex="-1">Register</a>
-                        <a class="nav-link d-lg-none" href="../register.html" tabindex="-1">Register</a>
-                    </li>
-                </ul>
-            </div>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" class="d-inline-block" id="logo">
+                    <span class="align-middle" id="company">Navix</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown" id="seperator">
+                            <a class="nav-link active dropdown-toggle" href="#" id="toursandpricing" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tours &amp; Pricing
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="toursandpricing">
+                                <a class="dropdown-item text-white" aria-current="page" href="main.html">What We Offer</a>
+                                <a class="dropdown-item text-white-50" href="tour1.html">The Around the World Tour&#8482;</a>
+                                <a class="dropdown-item text-white-50" href="tour2.html">The Pinnacle Tour&#8482;</a>
+                                <a class="dropdown-item text-white-50" href="tour3.html">The ISS Tour&#8482;</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" href="../launches.html">Launches</a>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" href="../training.html">Training</a>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" href="../about.html">About</a>
+                        </li>
+                        <li class="nav-item" id="last">
+                            <a class="btn btn-primary d-none d-lg-block" href="../register.html" tabindex="-1">Register</a>
+                            <a class="nav-link d-lg-none" href="../register.html" tabindex="-1">Register</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
+        <div class="container my-5" id="text_container">
+            <h1 class="display-1 text-center">Explore Tours</h1>
+            <h3 class="text-center" id="secondary">
+                If you haven't figured it out already, we're a space tourism company. So we do tours.
+            </h3>
+            <p class="lead text-center">
+                Currently, we offer the following three tours:
+            </p>
+        </div>
+        <div class="container" id="option_container">
+            <a href="tour1.html" style="text-decoration:none;">
+                <div class="d-flex flex-row align-items-center bg-primary my-2" id="tour_option">
+                    <div>
+                        <img src="../img/around_the_world_tour_vehicle2.jpeg" id="tour_option_image">
+                    </div>
+                    <div class="flex-grow-1 text-center px-4 text-white">
+                        <h1 class="display-6">The Around the World Tour&#8482;</h1>
+                        <p>
+                            Involves three hours in space at a height of 90km above the earth's surface. During this time, you will revolve around the Earth two times.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="../img/next_icon.png" id="icon">
+                    </div>
+                </div>
+            </a>
+            <a href="tour2.html" style="text-decoration:none;">
+                <div class="d-flex flex-row align-items-center bg-danger my-2" id="tour_option">
+                    <div>
+                        <img src="../img/rocket_launch3.jpeg" id="tour_option_image">
+                    </div>
+                    <div class="flex-grow-1 text-center px-4 text-white">
+                        <h1 class="display-6">The Pinnacle Tour&#8482;</h1>
+                        <p>
+                            Involves a day in space at the height of 300km above the earth's surface. During this time, you will orbit around the Earth, living like an astronaut.
+                    </div>
+                    <div>
+                        <img src="../img/next_icon.png" id="icon">
+                    </div>
+                </div>
+            </a>
+            <a href="tour3.html" style="text-decoration:none;">
+                <div class="d-flex flex-row align-items-center bg-success my-2" id="tour_option">
+                    <div>
+                        <img src="../img/iss.jpeg" id="tour_option_image">
+                    </div>
+                    <div class="flex-grow-1 text-center px-4 text-white">
+                        <h1 class="display-6">The ISS Tour&#8482;</h1>
+                        <p>
+                            The most elevated experience we offer. Involves three days in space, two of which will be spent abroad the International Space Station.
+                        </p>
+                    </div>
+                    <div class="bg-light" id="something">
+                        <img src="../img/next_icon.png" id="icon">
+                    </div>
+                </div>
+            </a>
+        </div>
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
             <symbol id="facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -76,7 +134,7 @@
                     &copy; 2023 Ranchview High School<br>
                     All rights reserved.
                 </p>
-                <p class="text-center text-muted">Built for the 2022-23 TSA Webmaster Competition</p>
+                <p class="text-center text-muted">Built for the 2022-23 TSA Webmaster Competition<br><a href="../about.html" style="text-decoration: none; color: cornflowerblue;">Copyright Info</a></p>
             </footer>
         </div>
         <!--DO NOT DELETE THESE SCRIPTS!-->
