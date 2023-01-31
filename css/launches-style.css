@@ -5,7 +5,7 @@
 }
 
 #H {
-    background: url("img/rocket_launch3.jpeg") no-repeat  top ; 
+    background: no-repeat  top ; 
     background-size: cover;
     padding-bottom: 2%;
     border-bottom: 1px solid #999999;
