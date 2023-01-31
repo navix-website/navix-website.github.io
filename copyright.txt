@@ -23,6 +23,10 @@ UNSPLASH:
     [saved as rockets_being_recycled.jpeg]
 10. Photo by SpaceX: https://unsplash.com/photos/yJv97tE7GDM
     [saved as rocket_launch3.jpeg]
+11. Photo by Jakob Rosen: https://unsplash.com/photos/j8YKy5lXejM
+    [saved as around_the_world_tour_vehicle1.jpeg]
+12. Photo by Ramon Kagie: https://unsplash.com/photos/r1o0YEBIiEo
+    [saved as around_the_world_tour_vehicle2.jpeg]
 
 PEXELS:
 1. Photo by Pixabay: https://www.pexels.com/photo/space-rocket-launching-73871/
@@ -34,5 +38,7 @@ PIXABAY:
 FLATICON [ATTRIBUTION REQUIRED]:
 1. Next Icon by Icon Mart: https://www.flaticon.com/free-icons/next
     [saved as img/next_icon.png]
-    --> used in the tour/main.html webpage
+    --> used in the tours/main.html webpage
+
+
 OUR PHOTOS (designed by us):
