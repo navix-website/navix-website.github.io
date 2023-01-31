@@ -27,9 +27,12 @@ UNSPLASH:
 PEXELS:
 1. Photo by Pixabay: https://www.pexels.com/photo/space-rocket-launching-73871/
     [saved as img/rocket_launch1.jpeg]
-    --> used in index.html for the carousel
 
 PIXABAY:
 
 
+FLATICON [ATTRIBUTION REQUIRED]:
+1. Next Icon by Icon Mart: https://www.flaticon.com/free-icons/next
+    [saved as img/next_icon.png]
+    --> used in the tour/main.html webpage
 OUR PHOTOS (designed by us):

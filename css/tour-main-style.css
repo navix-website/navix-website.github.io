@@ -1,0 +1,20 @@
+#tour_option {
+    border: 2px solid #dddddd;
+    border-radius: 42px;
+    margin: none;
+}
+#tour_option_image {
+    height: 180px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 320px;
+}
+#icon {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 180px;
+}
+#something {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
