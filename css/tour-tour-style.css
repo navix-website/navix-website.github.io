@@ -40,4 +40,5 @@ body {
     position: fixed;
     top: 68px;
     width: 100%;
+    transition: 0.3s ease position;
 }
