@@ -21,7 +21,7 @@ body {
     border-bottom: 2px solid #999999;
 }
 #dates_and_schedule {
-    height: 450px;
+    height: 480px;
     border-bottom: 2px solid #999999;
 }
 #warning {
@@ -32,16 +32,20 @@ body {
     transform: translateY(56px);
 }
 .first_sticky {
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
     transition: 1s ease position;
 }
 .second_sticky {
-    position: fixed;
+    position: sticky;
     top: 68px;
     width: 100%;
     transition: 1s ease position;
+}
+#overview_content {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
 }
 .tour_date {
     height: 330px;

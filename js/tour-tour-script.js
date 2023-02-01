@@ -1,9 +1,7 @@
 window.onscroll = function() {myFunction()};
 
 var main_navbar = document.getElementById("main_navbar");
-
 var sub_navbar = document.getElementById("sub_navbar");
-
 var sticky = sub_navbar.offsetTop - 68;
 
 function myFunction() {
@@ -15,3 +13,9 @@ function myFunction() {
     sub_navbar.classList.remove("second_sticky");
   }
 }
+
+$("#link3").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#dates_and_schedule").offset().top + 480},
+        'slow');
+});
