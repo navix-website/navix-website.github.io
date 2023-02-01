@@ -21,10 +21,10 @@ body {
     border-bottom: 2px solid #999999;
 }
 #dates_and_schedule {
-    height: 400px;
+    height: 450px;
     border-bottom: 2px solid #999999;
 }
-#specifics {
+#warning {
     height: 300px;
 }
 #sub-navbar {
@@ -35,10 +35,19 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
+    transition: 1s ease position;
 }
 .second_sticky {
     position: fixed;
     top: 68px;
     width: 100%;
-    transition: 0.3s ease position;
+    transition: 1s ease position;
+}
+.tour_date {
+    height: 330px;
+    width: 33.33%;
+    float: left;
+}
+#border {
+    border-right: 2px solid #999999;
 }
