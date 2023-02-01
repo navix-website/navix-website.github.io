@@ -17,7 +17,7 @@ body {
     border-bottom: 2px solid #999999;
 }
 #cost {
-    height: 100px;
+    height: 130px;
     border-bottom: 2px solid #999999;
 }
 #dates_and_schedule {
@@ -40,4 +40,5 @@ body {
     position: fixed;
     top: 68px;
     width: 100%;
+    transition: 0.3s ease position;
 }
