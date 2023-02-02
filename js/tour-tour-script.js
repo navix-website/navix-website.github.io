@@ -13,9 +13,3 @@ function myFunction() {
     sub_navbar.classList.remove("second_sticky");
   }
 }
-
-$("#link3").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#dates_and_schedule").offset().top + 480},
-        'slow');
-});

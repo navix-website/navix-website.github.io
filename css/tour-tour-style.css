@@ -13,7 +13,7 @@ body {
     transform: translateY(-50%);
 }
 #overview {
-    height: 300px;
+    height: 320px;
     border-bottom: 2px solid #999999;
 }
 #cost {
