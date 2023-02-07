@@ -1,6 +1,12 @@
 /*General Styles*/
 /*Apply across all webpages.*/
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    transition: display 4s ease-in-out 2s;
+}
+
 /*NAV*/
 /*The following line emphasizes that the styles are applied only when the screen size is atleast that of a small laptop.*/
 @media only screen and (min-width: 992px) {
@@ -36,4 +42,23 @@
     #last {
         background-color: var(--bg-dark);
     }
+}
+
+.bg_navix1 {
+    background-color: #ffbd4a;
+}
+.bg_navix2 {
+    background-color: #ff9249;
+}
+.bg_navix3 {
+    background-color: #ff6647;
+}
+.text_navix1 {
+    color: #ffbd4a;
+}
+.text_navix2 {
+    color: #ff9249;
+}
+.text_navix3 {
+    color: #ff6647;
 }
