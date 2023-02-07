@@ -16,3 +16,11 @@
 #border {
     border-bottom: 1px solid #999999;
 }
+#about_block1 {
+    height: 450px;
+    margin: 2.5% 0% 5% 0%;
+}
+#about_block2 {
+    height: 450px;
+    margin: 5% 0% 2.5% 0%;
+}
