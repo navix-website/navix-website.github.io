@@ -1,4 +1,4 @@
-#tour_option {
+.tour_option {
     border: 2px solid #dddddd;
     border-radius: 42px;
     margin: none;
@@ -20,4 +20,13 @@
 }
 #secondary {
     font-weight: 300;
+}
+#tour_option1 {
+    background-color: #ffbd4a;
+}
+#tour_option2 {
+    background-color: #ff9249;
+}
+#tour_option3 {
+    background-color: #ff6647;
 }

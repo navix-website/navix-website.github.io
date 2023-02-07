@@ -8,10 +8,21 @@ body {
     height: 575px;
     object-fit: cover;
 }
-#image_text {
+.image_text {
     top: 57%;
     transform: translateY(-50%);
 }
+/*
+#image_text1 {
+    color: #ffbd4a;
+}
+#image_text2 {
+    color: #ff9249;
+}
+#image_text3 {
+    color: #ff6647;
+}
+*/
 #overview {
     height: 320px;
     border-bottom: 2px solid #999999;
@@ -39,7 +50,7 @@ body {
 }
 .second_sticky {
     position: sticky;
-    top: 68px;
+    top: 60px;
     width: 100%;
     transition: 1s ease position;
 }
@@ -55,3 +66,17 @@ body {
 #border {
     border-right: 2px solid #999999;
 }
+.link_disabled {
+    pointer-events: none;
+}
+/*
+#link_disabled1 {
+    color: #ffbd4a;
+}
+#link_disabled2 {
+    color: #ff9249;
+}
+#link_disabled3 {
+    color: #ff6647;
+}
+*/

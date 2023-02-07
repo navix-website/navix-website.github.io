@@ -1,6 +1,12 @@
 /*General Styles*/
 /*Apply across all webpages.*/
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    transition: display 4s ease-in-out 2s;
+}
+
 /*NAV*/
 /*The following line emphasizes that the styles are applied only when the screen size is atleast that of a small laptop.*/
 @media only screen and (min-width: 992px) {
