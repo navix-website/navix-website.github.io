@@ -70,18 +70,21 @@
               <label for="exampleInputPassword1" class="form-label"><span style="color: red;">*</span>Email:</label>
               <input type="email" class="form-control" id="exampleInputPassword1">
             </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"><span style="color: red;">*</span>Choose Your Tour:</label>
             <select class="form-select" aria-label="Default select example">
-                <option selected>Choose Your Tour</option>
+                <option selected>-select-</option>
                 <option value="1">Around The World</option>
                 <option value="2">Pinnacle</option>
                 <option value="3">ISS</option>
               </select>
+            </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Agree to Terms and Conditions</label>
+              <label class="form-check-label" for="exampleCheck1"><span style="color: red;">*</span>By registering for this tour, you agree to Navix's terms and conditions.</label>
             </div>
             <button type="button" class="btn btsn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-Submit              </button>
+Register             </button>
           </form>
           <!-- Button trigger modal -->
 
@@ -95,10 +98,10 @@ Submit              </button>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          Your form was submited succesfully and you have been put on the waitlist for your chosen tour. We will contact you as soon as a spot opens up.
+          Your have registered succesfully! You will contact you as soon as possible with the available tour dates for your selection and methods for payment.
         </div>
         <div class="modal-footer">
-          <button type="button" class=" btn-danger">Understood</button>
+          <button type="button" class="btn-large btn-danger" style="border-radius: 4px;">Okay, understood.</button>
           
         </div>
       </div>
