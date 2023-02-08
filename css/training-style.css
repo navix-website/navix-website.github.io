@@ -14,3 +14,10 @@ figcaption{font-style: italic;}
 #btn:hover{
     background-color:#ff6647;color:white
 }
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 576px;
+}
