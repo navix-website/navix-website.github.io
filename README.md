@@ -1,7 +1,7 @@
 # **navix-website.github.io**
 ***Website for the TSA Webmaster competition***
 
-**Members:** Hrutvik Palutla, Roger Peng, Monish Mehta, Tarun Vijay 
+**Members:** Hrutvik Palutla, Roger Peng, Monish Mehta, Tarun Kumar Vijay 
 
 *We're from Ranchview High School, Irving, Texas*
 
