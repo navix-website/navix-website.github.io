@@ -3,7 +3,7 @@
 
 **Members:** Hrutvik Palutla, Roger Peng, Monish Mehta, Tarun Kumar Vijay 
 
-*We're from Ranchview High School, Irving, Texas.*
+*We're from RHS, Irving, Texas.*
 
 Website for the Navix Space Tourism Company: ***https://navix-website.github.io***
 
