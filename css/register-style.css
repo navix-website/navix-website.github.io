@@ -1,0 +1,123 @@
+.btn{
+    background-color: #ff8248;
+    color:white;
+    text-align: center;
+}
+ 
+.btn:hover{
+    background-color:#ff6647;
+    color:white
+}
+.btn-danger{
+    background-color:red;
+    color:white;
+    border:none
+}
+#form_start {
+    display: block;
+}
+#form_part1 {
+    display: none;
+}
+#form_part2 {
+    display: none;
+}
+#form_part3 {
+    display: none;
+}
+#form_complete {
+    display: none;
+}
+.form_field {
+    width: 60%;
+    max-width: 800px;
+    margin: auto;
+}
+.form_touroption {
+    background-color: #999999;
+    position: relative;
+    height: 300px;
+    width: 30%;
+    min-width: 120px;
+    margin: 0 1.66% 0 1.66%;
+    border: 2px solid #999999;
+    border-radius: 15px;
+    float: left;
+
+    /*Allows text to be centered*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.form_tourdateoption {
+    background-color: #999999;
+    position: relative;
+    height: 300px;
+    width: 30%;
+    min-width: 120px;
+    margin: 0 1.66% 0 1.66%;
+    border: 2px solid #999999;
+    border-radius: 15px;
+    float: left;
+
+    /*Allows text to be centered*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+#tour_selection_options {
+    max-width: 800px;
+}
+#tour_date_selection_options {
+    max-width: 800px;
+    display: none;
+}
+#show_tour_cost {
+    max-width: 800px;
+    display: none;
+}
+#tour_date_selection_label {
+    display: none;
+}
+.register_page_top_image {
+    width: 100%;
+}
+.register_page_top_image_holder {
+    max-width: 500px;
+    margin: auto;
+}
+.touroption_backgroundimage {
+    height: 100%;
+    width: 100%;
+    border-radius: 13.5px;
+}
+.touroption_optiontext {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-weight: 350;
+}
+.tourdateoption_optiontext {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-weight: 350;
+}
+#terms_and_conditions {
+    text-align: center;
+}
+#buttons {
+    margin: auto;
+    min-width: 200px;
+    max-width: 15%;
+}
+#instructions {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+.instruction_note {
+    font-size: medium;
+}

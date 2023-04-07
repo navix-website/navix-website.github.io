@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Training | Navix</title>
+        <link rel="icon" type="image/png" href="img/logo.png">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/general-style.css">
+        <link rel="stylesheet" href="css/training-style.css">
+    </head>
+    <body class="dark-theme">       
+        <div class="scroll-indicator">
+            <div class="scroll-progress"></div>
+        </div>        
+        <a name="top"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top main_pagetop_navbar_background">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="d-inline-block" id="logo">
+                    <img src="img/NavixInWhite.png" class="d-inline-block" id="name">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown" id="seperator">
+                            <a class="nav-link dropdown-toggle" href="tours/main.html" id="toursandpricing" aria-haspopup="true" aria-expanded="false">
+                                Tours &amp; Pricing
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="toursandpricing">
+                                <a class="dropdown-item text-white-50" href="tours/tour1.html">The Around the World Tour&#8482;</a>
+                                <a class="dropdown-item text-white-50" href="tours/tour2.html">The Pinnacle Tour&#8482;</a>
+                                <a class="dropdown-item text-white-50" href="tours/tour3.html">The ISS Tour&#8482;</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" href="spaceflight.html">Spaceflight</a>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" href="launches.html">Launches</a>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link active" href="training.html">Training</a>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="nav-link" href="about.html" tabindex="-1">About</a>
+                        </li>
+                        <li class="nav-item" id="seperator">
+                            <a class="btn d-none d-lg-block" href="register.html" tabindex="-1">Register</a>
+                            <a class="nav-link d-lg-none" href="register.html" tabindex="-1">Register</a>
+                        </li>
+                        <div class="toggle-container">
+                            <div class="toggle">
+                              <input type="checkbox" id="toggle-switch">
+                              <label for="toggle-switch"></label>
+                            </div>
+                            <span class="toggle-text"></span>
+                          </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </symbol>
+            <symbol id="instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </symbol>
+            <symbol id="twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </symbol>
+        </svg>
+        <div class="text-center mx-auto" style="position: relative;">
+            <img src="img/starry_sky2.jpg" class="mx-auto" id="top_pic">
+            <div class="carousel-caption image_text">
+                <h1 class="display-3 fw-normal">
+                    Training
+                </h1>
+                <p class="lead">
+                    <span class="fw-semibold">Training is a mandatory part of our tour package, provided at no extra cost.</span><br>
+                    <span class="fw-light">Here, you will learn prerequisite skills at our state-of-the art training facilities to prepare you for your tour.</span>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <p class="lead text-center"> 
+                At Navix, we consider your safety to be of utmost importance.
+            </p>
+            <p class="lead text-center">
+                While we don't expect you to become experienced astronauts before taking the trip,<br>we do require that you are familiar with basic skills in face of an emergency.
+            </p>
+            <p class="lead text-center">
+                The goal of each class in the training regimen is to prepare you for your tour and uplift your confidence so you can enjoy the journey of a lifetime.                
+            </p>
+            <img class="mb-0 py-0" src="img/training_page_collage.png" id="collage_pic">
+            <div id="border"></div>
+            <p class="text-center display-2 mt-4 mb-2 text_logogradient">How It Works</p>
+            <p class="mb-2" style="text-align: center;">
+                Training involves both hands-on and in-class learning. The training regimen is built to take 3 to 10 days to complete, depending on your tour. Our training classes are taught by dedicated, trained, and certified staff with at least 3 years of flight experience. You must take part in all the prerequisite classes in order to fly, along with being cleared medically for the flight. Consult the chart below for specifics and to learn what classes you will need to take.
+            </p>
+            <p class="mb-2" style="text-align: center;">
+                Navix training centers are spread out over all major cities in the US, along with some international locations as well. You will choose your personal training schedule and center after registration. For those who would like them, additional training resources, such as retaking a class, are available free of charge, based on Navix instructor availability and tour dates. If you have any questions, please contact us immediately.
+            </p>
+            <img class="my-5" src="img/trainingclasses_light.png" id="training_classes_pic" data-aos="fade-up">
+            <div id="border"></div>
+            <p class="text-center display-2 mt-4 mb-0 py-0 text_logogradient">Classes</p>
+            <p class="text-center lead mt-0 mb-4">
+                Dive in to each class and get a headstart by learning what you'll be doing in each.
+            </p>
+            <div class="accordion" id="classes_accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#class1_debriefing" aria-expanded="false" aria-controls="class1_debriefing">
+                            Flight Debriefing
+                        </button>
+                    </h2>
+                    <div id="class1_debriefing" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p class="lead text-center">
+                                <strong>Time Required for Class:</strong> 2 hours<br>
+                                <em>applies to all tours</em>
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                Before embarking on the tour, you will first need to know what the tour involves. The pilots of your tour will explain the orbital parameters of the tour you are taking and also the entire trip itinerary. This is also a good time to meet up with the pilots and ask them any questions you might have. This class will help you understand the intricacies of what you're undertaking as you journey to space and how the tour's objectives will be met.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#class2_checkup" aria-expanded="false" aria-controls="class2_checkup">
+                            Health Check-Up
+                        </button>
+                    </h2>
+                    <div id="class2_checkup" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p class="lead text-center">
+                                <strong>Time Required for Class:</strong> 4 hours<br>
+                                <em>applies to all tours</em>
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                Before embarking on your space adventure, it's important to ensure that you're in good health and ready for the rigors of spaceflight. That's where our health checkup comes in. In this class, our experienced medical team will perform a thorough assessment of your physical and mental health to make sure that you're fit to travel to space.
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                We'll monitor several important aspects of your health, from cardiovascular health and respiratory function to psychological well-being and stress management. If you're deemed to be in good physical and mental health, you will be allowed to continue on the tour.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#class3_teambuilding" aria-expanded="false" aria-controls="class3_teambuilding">
+                            Team Building
+                        </button>
+                    </h2>
+                    <div id="class3_teambuilding" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p class="lead text-center">
+                                <strong>Time Required for Class:</strong> 4 hours<br>
+                                <em>applies to all tours</em>
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                Our team-building class is designed to enhance teamwork and collaboration among passengers, preparing them for the unique challenges of space travel. Through a series of interactive exercises and group activities, passengers will learn how to communicate effectively, build trust, and work together to achieve common goals.
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                Our instructors will guide passengers through a variety of team-building exercises, such as problem-solving challenges and group activities. These exercises are designed to foster communication and trust and help passengers develop a deeper understanding of their individual strengths and weaknesses. By the end of the class, passengers will have gained valuable skills and insights into effective teamwork, which will aid them on the tour.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#class4_emergency" aria-expanded="false" aria-controls="class4_emergency">
+                            Emergency Procedures and First Aid
+                        </button>
+                    </h2>
+                    <div id="class4_emergency" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p class="lead text-center">
+                                <strong>Time Required for Class:</strong> 10 hours<br>
+                                <em>applies to all tours</em>
+                            </p>
+                        </div>
+                        <p class="mx-5 px-5 text-center">
+                            While Navix has not as of yet had even a single life-threatening situation develop on its tours, emergencies can happen at any time, and it's crucial to have the skills and knowledge to know what to do then. While onboard a tour, you can have two kinds of emergencies: medical, wherein the pilot or a fellow passenger is affected, or orbital, which includes failure of mechanical systems on the vehicle you're using.
+                        </p>
+                        <p class="mx-5 px-5 text-center">
+                            For onboard emergencies, such as failure of navigation or life support systems or a loss of pressure, you'll learn how to turn on backup systems, communicate with ground control, and otherwise be prepared for such an eventuality. For medical emergencies, you'll learn how to assess and treat a range of common injuries and illnesses, from cuts and burns to fractures and sprains. You'll also learn how to recognize the signs of more serious medical conditions, such as heart attacks and strokes, and how to respond effectively to these emergencies.
+                        </p>
+                        <p class="mx-5 px-5 text-center">
+                            Our experienced instructors will guide you through hands-on training exercises, allowing you to practice and refine your skills in a safe and supportive environment. By the end of the class, you'll have the knowledge and confidence to handle a variety of medical and orbital emergency situations, making you a valuable asset.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#class5_spaceflightbasics" aria-expanded="false" aria-controls="class5_spaceflightbasics">
+                            Basics of Launched Spaceflight
+                        </button>
+                    </h2>
+                    <div id="class5_spaceflightbasics" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p class="lead text-center">
+                                <strong>Time Required for Class:</strong> 10 hours<br>
+                                <em>applies to only the Pinnacle&#8482; and ISS&#8482; tours</em>
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                This class was designed with the passengers of the Pinnacle&#8482; and ISS&#8482; tours in mind. This is meant to be a basic introduction to launched spaceflight, i.e., with rockets involved, unlike a conventional plane as with the Around the WorldTM tour. This class will discuss terminology and the science behind, well, rocket science, and also allow passengers on these tours to gain a deeper understanding of rocket-lashed spaceflight.
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                In about two days' worth of time, this class will cover the history of spaceflight, the evolution of rockets, and also the physics behind them. It will also go into depth about experiences specific to rockets, such as the G-forces you will have to face during launch and reentry and how recovery differs from the Around the World&#8482; tour.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#class6_simulator" aria-expanded="false" aria-controls="class6_simulator">
+                            Flight Simulator
+                        </button>
+                    </h2>
+                    <div id="class6_simulator" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p class="lead text-center">
+                                <strong>Time Required for Class:</strong> 20 hours<br>
+                                <em>applies to only the Pinnacle&#8482; and ISS&#8482; tours</em>
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                Our flight simulation class is designed to give passengers a realistic experience of space travel while also preparing them for the extreme pressures of launch and re-entry. Through a series of immersive simulations, passengers will learn what it's like to be an astronaut and get a taste of what it's like to travel through space.
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                Our experienced instructors will guide passengers through a variety of simulation exercises, allowing them to experience the feeling of launching into space, orbiting the Earth, and reentering the atmosphere. This class will help the passengers know what to expect and become acclimated to the tour experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#class7_advancedtraining" aria-expanded="false" aria-controls="class7_advancedtraining">
+                            Advanced Training - ISS Structure and Living in Space
+                        </button>
+                    </h2>
+                    <div id="class7_advancedtraining" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p class="lead text-center">
+                                <strong>Time Required for Class:</strong> 20 hours<br>
+                                <em>applies to only the ISS&#8482; tour</em>
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                The Advanced Training class is specially designed for the ISS&#8482; tour, keeping in mind that the passengers of this tour have to live aboard the ISS and stay in space for longer periods of time. Our team of experts will teach you the layout of the ISS, the rules and procedures to be followed onboard, and specific emergency procedures for the ISS.                             
+                            </p>
+                            <p class="mx-5 px-5 text-center">
+                                This class will also exclusively focus on what it's like to live in zero gravity, including the issue of food and water in space and the importance of a proper sleeping cycle and exercise. You will also receive information about the activities offered to tourists aboard the ISS. You'll also have the opportunity to learn about daily life on the ISS and how it applies to the tour.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </symbol>
+            <symbol id="instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </symbol>
+            <symbol id="twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </symbol>
+        </svg>
+        <div>
+            <footer>
+                <hr>
+                <p class="text-center">
+                    <img src="img/logo.png" class="d-inline-block" id="logo">
+                    <img src="img/NavixInWhite.png" class="d-inline-block" id="footer_name"><br>
+                    &copy; 2023 Navix<br>
+                    All rights reserved.
+                </p>
+                <p class="text-center">
+                    Built for the 2022-23 TSA Webmaster Competition<br>
+                    <a href="about.html#about_attribution" style="text-decoration: none; color: #ff9249;">Copyright Info</a>
+                </p>
+            </footer>
+        </div>
+        <!--DO NOT DELETE THESE SCRIPTS!-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <script src="js/general-script.js"></script>
+        <script src="js/training-script.js"></script>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+            const firebaseConfig = {
+                apiKey: "AIzaSyBN7pQWlr89wXQQZpPBQ8XSfh7-9F566OI",
+                authDomain: "navix-7afdf.firebaseapp.com",
+                projectId: "navix-7afdf",
+                storageBucket: "navix-7afdf.appspot.com",
+                messagingSenderId: "651586104958",
+                appId: "1:651586104958:web:038d4e72af531cfc12b22f",
+                measurementId: "G-ZGGFHSFX27"
+            };
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+        </script>
+    </body>
+</html>

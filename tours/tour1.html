@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Around the World Tour&#8482; | Navix</title>
+        <link rel="icon" type="image/png" href="../img/logo.png">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/general-style.css">
+        <link rel="stylesheet" href="../css/tour-tour-style.css">
+        <style>
+            #sub_navbar .nav-pills  {
+                --bs-nav-pills-link-active-color: #ffffff;
+                --bs-nav-pills-link-active-bg: #ffbd4a;
+            }
+            #sub_navbar .nav-item {
+                --bs-nav-link-color: #ffbd4a;
+            }
+        </style>
+    </head>
+    <body class="dark-theme">   
+        <div class="scroll-indicator">
+            <div class="scroll-progress"></div>
+        </div>           
+        <a name="top"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top main_pagetop_navbar_background" id="main_navbar">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" class="d-inline-block" id="logo">
+                    <img src="../img/NavixInWhite.png" class="d-inline-block" id="name">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown" id="seperator">
+                        <a class="nav-link active dropdown-toggle" href="main.html" id="toursandpricing" aria-haspopup="true" aria-expanded="false">
+                            Tours &amp; Pricing
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="toursandpricing">
+                            <a class="dropdown-item text-white" href="tour1.html">The Around the World Tour&#8482;</a>
+                            <a class="dropdown-item text-white-50" href="tour2.html">The Pinnacle Tour&#8482;</a>
+                            <a class="dropdown-item text-white-50" href="tour3.html">The ISS Tour&#8482;</a>
+                        </div>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../spaceflight.html">Spaceflight</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../launches.html">Launches</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../training.html">Training</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="btn d-none d-lg-block" href="../register.html" tabindex="-1">Register</a>
+                        <a class="nav-link d-lg-none" href="../register.html" tabindex="-1">Register</a>
+                    </li>
+                    <div class="toggle-container">
+                            <div class="toggle">
+                              <input type="checkbox" id="toggle-switch">
+                              <label for="toggle-switch"></label>
+                            </div>
+                            <span class="toggle-text"></span>
+                          </div>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="text-center mx-auto" id="start_image">
+            <img src="../img/around_the_world_tour_vehicle2.jpeg" class="img-fluid mx-auto" id="top_pic">
+            <h1 class=" carousel-caption display-3 text-center my-3 image_text" id="image_text1">The Around the World Tour&#8482;</h1>
+        </div>
+        <nav id="sub_navbar" class="navbar px-3 mb-2 justify-content-center sub_navbar_background">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link link_disabled" href="#overview" id="link_disabled1">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link_disabled" href="#cost" id="link_disabled1">Cost</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link_disabled" href="#dates_and_schedule" id="link_disabled1">Upcoming Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link_disabled" href="#tour_stats" id="link_disabled1">Statistics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link_disabled" href="#tour_register" id="link_disabled1">Tour Registration</a>
+              </li>
+            </ul>
+        </nav>
+        <div class="container-fuild scrollspy p-3" data-bs-spy="scroll" data-bs-target="#sub_navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <div class="container px-3" id="overview">
+                <h1 class="display-5 text-center my-3">Overview</h1>
+                <p class="lead text-center">
+                    <strong>The Around the World Tour&#8482; is our most popular, least expensive and most safest tour.</strong><br>
+                    20-25 people per flight; duration of three hours
+                </p>
+                <p class="text-center" id="overview_content">
+                    The objective of this tour is simple and does not even require a rocket to launch: you will climb onto our Challenger fleet of high-altitude planes to travel around the world. At the apogee (the highest point during the spaceflight), your orbital velocity will be around 28000 km/h, at an altitude of about 90 km above the Earth's surface. You will experience weightlessness for about 10-15 minutes in the middle of flight, and the Earth will revolve once as you ascend to the stars and descend back to home.
+                </p>
+            </div>
+            <div class="container p-3 align-middle" id="cost">
+                <p class="lead my-0 text-center">
+                    currently priced at:
+                </p>
+                <h1 class="display-5 text-center">$99,999.99</h1>
+            </div>
+            <div class="container py-1 px-3" id="dates_and_schedule">
+                <h1 class="display-5 text-center my-3">Upcoming Tour Dates</h1>
+                <div class="flex-row justify-content-evenly align-items-stretch">
+                    <div class="p-2 flex-fill tour_date" id="border">
+                        <h3 class="text-center">10th May, 2023</h3>
+                        <ul class="text-center" style="list-style-type: none; margin-right: 10%;">
+                            <li>
+                                <strong>Registration Deadline:</strong><br>
+                                18th April, 2023
+                            </li>
+                            <!-- Add 18 days-->
+                            <li>
+                                <strong>Training/Health Checkup Deadline:</strong><br>
+                                6th May, 2023
+                            </li>
+                            <!-- Add 3 days-->
+                            <li>
+                                <strong>Before-Launch Quarantine Period:</strong><br>
+                                9th May, 2023
+                            </li>
+                            <!-- Add 1 day-->
+                            <li>
+                                <strong>Tour Timings:</strong><br>
+                                3:00PM EDT, 10th May -<br> 12:00AM EDT, 11th May, 2023*
+                            </li>
+                            <!-- Add 1 day-->
+                            <li>
+                                <strong>After-Launch Quarantine Period:</strong><br>
+                                11th May, 2023
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Add 10 days to Registration Deadline-->
+                    <div class="p-2 flex-fill tour_date" id="border">
+                        <h3 class="text-center">20th May, 2023</h3>
+                        <ul class="text-center" style="list-style-type: none; margin-right: 10%;">
+                            <li>
+                                <strong>Registration Deadline:</strong><br>
+                                28th April, 2023
+                            </li>
+                            <!-- Add 18 days-->
+                            <li>
+                                <strong>Training/Health Checkup Deadline:</strong><br>
+                                16th May, 2023
+                            </li>
+                            <!-- Add 3 days-->
+                            <li>
+                                <strong>Before-Launch Quarantine Period:</strong><br>
+                                19th May, 2023
+                            </li>
+                            <!-- Add 1 day-->
+                            <li>
+                                <strong>Tour Timings:</strong><br>
+                                5:00PM EDT, 20th May -<br> 2:00AM EDT, 21st May, 2023*
+                            </li>
+                            <!-- Add 1 day-->
+                            <li>
+                                <strong>After-Launch Quarantine Period:</strong><br>
+                                21st May, 2023
+                            </li>
+                        </ul>
+                    </div>
+                     <!--Add 10 days to Registration Deadline-->
+                    <div class="p-2 flex-fill tour_date">
+                        <h3 class="text-center">30th May, 2023</h3>
+                        <ul class="text-center" style="list-style-type: none; margin-right: 10%;">
+                            <li>
+                                <strong>Registration Deadline:</strong><br>
+                                8th May, 2023
+                            </li>
+                            <!-- Add 18 days-->
+                            <li>
+                                <strong>Training/Health Checkup Deadline:</strong><br>
+                                26th May, 2023
+                            </li>
+                            <!-- Add 3 days-->
+                            <li>
+                                <strong>Before-Launch Quarantine Period:</strong><br>
+                                29th May, 2023
+                            </li>
+                            <!-- Add 1 day-->
+                            <li>
+                                <strong>Tour Timings:</strong><br>
+                                2:00PM EDT - 11PM EDT, <br> 30th May, 2023*
+                            </li>
+                            <!-- Add 1 day-->
+                            <li>
+                                <strong>After-Launch Quarantine Period:</strong><br>
+                                31st May, 2023
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br style="clear: both">
+                    <br>
+                    <p class="text-center">*Exact timings may change based on weather and other factors out of our control.</p>
+                </div>
+            </div>
+            <div class="container py-3 px-3" id="tour_stats">
+                <h1 class="display-6 text-center">Here are some statistics for the Around the World&#8482; tour:</h1>
+                <div class="d-flex flex-row text-center mt-4" id="stats">
+                    <div class="pt-2 align-self-end bg_navix1" id="stat">
+                        <h1 class="display-6 fw-semibold fst-italic">3071</h1>
+                        <p class="lead fw-normal">flights of this<br>tour to space</p>
+                    </div>
+                    <div class="pt-2 align-self-stretch bg_navix2" id="stat">
+                        <h1 class="display-6 fw-semibold fst-italic align-self-center pt-4">67563</h1>
+                        <p class="lead fw-normal">Navixians<br>on this tour</p>
+                    </div>
+                    <div class="pt-2 align-self-end bg_navix3" id="stat">
+                        <h1 class="display-6 fw-semibold fst-italic">&#8764;10134</h1>
+                        <p class="lead fw-normal">hours of<br>flight time</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-3 px-3" id="tour_register">
+                <p class="lead text-center">
+                    Why wait? Register now for the Around the Tour&#8482; tour!
+                </p>
+                <button onclick="change_to_registration_page()" type="button" class="mb-4 btn mx-auto fs-4">Register</button>
+                <h4 class="pb-3 text-center"><mark>Important information! Read carefully before registering!</mark></h4>
+                <ul class="mb-3">
+                    <li>
+                        You will get a full refund if you cancel your booking within 24 hours of registration; later, all refunds will be reduced to 50% of the tour's value. If you cannot attend the tour due to external circumstances beyond your control, contact Navix immediately with the proper documentation. After review, you can choose to have your tour date shifted into the future or receive a 75% refund.
+
+                    </li>
+                    <li>
+                        If there is anything about the mission parameters, training, or quarantine that you feel doubtful about, please view the appropriate pages on this website or reach out to us immediately before registering.
+
+                    </li>
+                    <li>
+                        Safety is our number one concern, and the quarantine and training aspects of the tour cannot be skipped. All people who do not complete the prerequisite training and quarantine will not be allowed on the tour. We also reserve the right to deny access to any person who compromises the safety of the tour, on any criteria that might be deemed appropriate.
+
+                    </li>
+                    <li>
+                        Please note that this tour involves at least 20 hours of dedicated training and requires 6-7 days of dedicated preparation and quarantine for the tour. You are asked to clear your schedule two weeks prior to the tour. Please do not register if you cannot make the time.
+
+                    </li>
+                    <li>
+                        Failure to stick to the deadlines and schedule after payment will result in a 25% refund, and the customer will be prohibited from the tour. The chosen tour date cannot be shifted in most circumstances. If you miss the tour while satisfying the prerequisite conditions, you will receive no refund.
+
+                    </li>
+                </ul>
+                <p class="fs-5 text-center mx-5 mt-0 mb-0 pb-0">
+                    This is just a summary of the conditions that apply to you as you undertake the Around the World™ tour. You can find these terms and other important legal information on the <a href="../terms&conditions.html" style="text-decoration: none; color: #ff6647;">terms and conditions</a> page.
+                </p>
+            </div>
+        </div>
+        <div>
+            <hr>
+            <footer class="mt-0 pt-0">
+                <p class="text-center">
+                    <img src="../img/logo.png" class="d-inline-block" id="logo">
+                    <img src="../img/NavixInWhite.png" class="d-inline-block" id="tour_footer_name"><br>
+                    &copy; 2023 Navix<br>
+                    All rights reserved.
+                </p>
+                <p class="text-center">
+                    Built for the 2022-23 TSA Webmaster Competition<br>
+                    <a href="../about.html#about_attribution" style="text-decoration: none; color: #ff9249;">Copyright Info</a>
+                </p>
+            </footer>
+        </div>
+        <!--DO NOT DELETE THESE SCRIPTS!-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <script src="../js/general-script.js"></script>
+        <script src="../js/tour-tour-script.js"></script>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+            const firebaseConfig = {
+                apiKey: "AIzaSyBN7pQWlr89wXQQZpPBQ8XSfh7-9F566OI",
+                authDomain: "navix-7afdf.firebaseapp.com",
+                projectId: "navix-7afdf",
+                storageBucket: "navix-7afdf.appspot.com",
+                messagingSenderId: "651586104958",
+                appId: "1:651586104958:web:038d4e72af531cfc12b22f",
+                measurementId: "G-ZGGFHSFX27"
+            };
+        
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+        </script>      
+    </body>
+</html>

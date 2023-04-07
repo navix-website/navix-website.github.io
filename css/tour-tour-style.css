@@ -1,0 +1,94 @@
+body {
+    overflow-y: scroll;
+    min-height: 100%;
+}
+#top_pic {
+    display: block;
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+.image_text {
+    top: 57%;
+    transform: translateY(-50%);
+}
+/*
+#image_text1 {
+    color: #ffbd4a;
+}
+#image_text2 {
+    color: #ff9249;
+}
+#image_text3 {
+    color: #ff6647;
+}
+*/
+#start_image {
+    position: relative;
+}
+#overview {
+    min-height: 320px;
+    border-bottom: 2px solid #999999;
+}
+#cost {
+    min-height: 130px;
+    border-bottom: 2px solid #999999;
+}
+#dates_and_schedule {
+    min-height: 480px;
+    border-bottom: 2px solid #999999;
+}
+#tour_stats {
+    min-height: 280px;
+    border-bottom: 2px solid #999999;
+}
+#tour_register {
+    min-height: 550px;
+}
+#stats {
+    height: 180px;
+}
+#stat {
+    width: 33.33%;
+}
+.sub_navbar_background {
+    background-color: #414a4c;
+}
+.first_sticky {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    transition: 1s ease position;
+}
+.second_sticky {
+    position: sticky;
+    top: 50px;
+    width: 100%;
+    transition: 1s ease position;
+}
+#overview_content {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+}
+.tour_date {
+    min-height: 330px;
+    width: 33.33%;
+    float: left;
+}
+#border {
+    border-right: 2px solid #999999;
+}
+.link_disabled {
+    pointer-events: none;
+}
+/*
+#link_disabled1 {
+    color: #ffbd4a;
+}
+#link_disabled2 {
+    color: #ff9249;
+}
+#link_disabled3 {
+    color: #ff6647;
+}
+*/

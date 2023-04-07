@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>ISS Tour&#8482; | Navix</title>
+        <link rel="icon" type="image/png" href="../img/logo.png">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/general-style.css">
+        <link rel="stylesheet" href="../css/tour-tour-style.css">
+        <style>
+            #sub_navbar .nav-pills  {
+                --bs-nav-pills-link-active-color: #ffffff;
+                --bs-nav-pills-link-active-bg: #ff6647;
+            }
+            #sub_navbar .nav-item {
+                --bs-nav-link-color: #ff6647;
+            }
+        </style>
+    </head>
+    <body class="dark-theme">
+        <div class="scroll-indicator">
+            <div class="scroll-progress"></div>
+        </div>               
+        <a name="top"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top main_pagetop_navbar_background" id="main_navbar">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" class="d-inline-block" id="logo">
+                    <img src="../img/NavixInWhite.png" class="d-inline-block" id="name">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown" id="seperator">
+                        <a class="nav-link active dropdown-toggle" href="main.html" id="toursandpricing" aria-haspopup="true" aria-expanded="false">
+                            Tours &amp; Pricing
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="toursandpricing">
+                            <a class="dropdown-item text-white-50" href="tour1.html">The Around the World Tour&#8482;</a>
+                            <a class="dropdown-item text-white-50" href="tour2.html">The Pinnacle Tour&#8482;</a>
+                            <a class="dropdown-item text-white" href="tour3.html">The ISS Tour&#8482;</a>
+                        </div>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../spaceflight.html">Spaceflight</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../launches.html">Launches</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../training.html">Training</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item" id="seperator">
+                        <a class="btn d-none d-lg-block" href="../register.html" tabindex="-1">Register</a>
+                        <a class="nav-link d-lg-none" href="../register.html" tabindex="-1">Register</a>
+                    </li>
+                    <div class="toggle-container">
+                        <div class="toggle">
+                          <input type="checkbox" id="toggle-switch">
+                          <label for="toggle-switch"></label>
+                        </div>
+                        <span class="toggle-text"></span>
+                      </div>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="text-center mx-auto" id="start_image">
+            <img src="../img/iss.jpeg" class="img-fluid mx-auto" id="top_pic">
+            <h1 class=" carousel-caption display-3 text-center my-3 image_text" id="image_text3">The ISS Tour&#8482;</h1>
+        </div>
+        <nav id="sub_navbar" class="navbar px-3 mb-2 justify-content-center sub_navbar_background">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link link_disabled" href="#overview" id="link_disabled1">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link_disabled" href="#cost" id="link_disabled1">Cost</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link_disabled" href="#dates_and_schedule" id="link_disabled1">Upcoming Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link_disabled" href="#tour_stats" id="link_disabled1">Statistics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link_disabled" href="#tour_register" id="link_disabled1">Tour Registration</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fuild p-3" data-bs-spy="scroll" data-bs-target="#sub_navbar" data-bs-smooth-scroll="true" tabindex="0">
+            <div class="container px-3" id="overview">
+                <h1 class="display-5 text-center my-3">Overview</h1>
+                <p class="lead text-center">
+                    <strong>The most elevated experience of space that we offer at the moment.</strong><br>
+                    7-8 people per flight, duration of about 3 days
+                </p>
+                <p class="text-center" id="overview_content">
+                    The ISS tour is the most full and daring tour we offer. After being launched by our flagship rocket, the 
+                    SpaceX Starship, you will spend about 12 hours of your 3 days in space going up to and down from the orbit 
+                    of the ISS (about 408km), where you will dock and live onboard for two days. During this time, you will get 
+                    exclusive access to most of the ISS, where you can learn more about the research humans do in space. After 
+                    two days, your starship will undock from the ISS, travelling at the same altitude and give you an oppurtunity
+                    to take the view of the Earth in. After 12 hours in that orbit, you will return to Earth.
+                    <!--
+                    Welcome to the ISS tour, the most full and daring space tour offered by our company. We're thrilled to offer you the opportunity to experience life aboard the International Space Station (ISS) and learn more about the cutting-edge research being done in space. To start your journey, you'll be launched by our flagship rocket, the SpaceX Starship, which will take you on an incredible journey to the ISS. You'll spend about 12 hours of your 3 days in space going up to and down from the orbit of the ISS, which is approximately 410km above the Earth's surface. Once you arrive at the ISS, you'll dock and live onboard for two days, with exclusive access to most of the space station. You'll have the opportunity to learn about the research that humans conduct in space and gain a unique perspective on the incredible work being done by scientists and astronauts alike. During your stay on the ISS, you'll have the opportunity to take part in various activities and experiments, tailored to your interests. Whether you're interested in conducting scientific research, learning about the history of space exploration, or simply marveling at the incredible views of the Earth from space, there's something for everyone on this tour. After two days on the ISS, your Starship will undock and travel to an altitude of about 450km to take in the incredible view of the Earth. For 12 hours, you'll have a bird's-eye view of our planet like no other, before beginning your descent back to Earth. As you return to the ground, you'll be filled with a sense of awe and wonder at the incredible experience you've just had. This is a tour that is not to be missed, so book your seat on the ISS tour today and get ready to embark on the adventure of a lifetime.
+                    -->
+                </p>
+            </div>
+            <div class="container p-3 align-middle" id="cost">
+                <p class="lead my-0 text-center">
+                    currently priced at:
+                </p>
+                <h1 class="display-5 text-center">$599,999.99</h1>
+            </div>
+            <div class="container py-1 px-3" id="dates_and_schedule">
+                <h1 class="display-5 text-center my-3">Upcoming Tour Dates</h1>
+                <div class="flex-row justify-content-evenly align-items-stretch">
+                    <div class="p-2 flex-fill tour_date" id="border">
+                        <h3 class="text-center">16th May, 2023</h3>
+                        <ul class="text-center" style="list-style-type: none; margin-right: 10%;">
+                            <li>
+                                <strong>Registration Deadline:</strong><br>
+                                20th April, 2023
+                            </li>
+                            <li>
+                                <strong>Training/Health Checkup Deadline:</strong><br>
+                                12th May, 2023
+                            </li>
+                            <li>
+                                <strong>Before-Launch Quarantine Period:</strong><br>
+                                13th May - 15th May, 2023
+                            </li>
+                            <li>
+                                <strong>Tour Timings:</strong><br>
+                                5:00PM EDT, 16th May - <br>6:00PM EDT, 19th May, 2023*
+                            </li>
+                            <li>
+                                <strong>After-Launch Quarantine Period:</strong><br>
+                                20th May, 2023
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-2 flex-fill tour_date" id="border">
+                        <h3 class="text-center">24th June, 2023</h3>
+                        <ul class="text-center" style="list-style-type: none; margin-right: 10%;">
+                            <li>
+                                <strong>Registration Deadline:</strong><br>
+                                20th May, 2023
+                            </li>
+                            <li>
+                                <strong>Training/Health Checkup Deadline:</strong><br>
+                                20th June, 2023
+                            </li>
+                            <li>
+                                <strong>Before-Launch Quarantine Period:</strong><br>
+                                21st June - 23rd June, 2023
+                            </li>
+                            <li>
+                                <strong>Tour Timings:</strong><br>
+                                4:00PM EDT, 24th June - <br>7:00PM EDT, 27th June, 2023*
+                            </li>
+                            <li>
+                                <strong>After-Launch Quarantine Period:</strong><br>
+                                28th June, 2023
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-2 flex-fill tour_date">
+                        <h3 class="text-center">3rd August, 2023</h3>
+                        <ul class="text-center" style="list-style-type: none; margin-right: 10%;">
+                            <li>
+                                <strong>Registration Deadline:</strong><br>
+                                30th June, 2023
+                            </li>
+                            <li>
+                                <strong>Training/Health Checkup Deadline:</strong><br>
+                                30th July, 2023
+                            </li>
+                            <li>
+                                <strong>Before-Launch Quarantine Period:</strong><br>
+                                31st July - 2nd August, 2023
+                            </li>
+                            <li>
+                                <strong>Tour Timings:</strong><br>
+                                1:00PM EDT, 3rd August - <br>12:00AM EDT, 6th August, 2023*
+                            </li>
+                            <li>
+                                <strong>After-Launch Quarantine Period:</strong><br>
+                                6th August
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br style="clear: both">
+                    <br>
+                    <p class="text-center">*exact timings may change based on weather and other factors out of our control</p>
+                </div>
+            </div>
+            <div class="container py-3 px-3" id="tour_stats">
+                <h1 class="display-6 text-center">Here are some statistics for the ISS&#8482; tour:</h1>
+                <div class="d-flex flex-row text-center mt-4" id="stats">
+                    <div class="pt-2 align-self-end bg_navix1" id="stat">
+                        <h1 class="display-6 fw-semibold fst-italic">952</h1>
+                        <p class="lead fw-normal">flights of this<br>tour to space</p>
+                    </div>
+                    <div class="pt-2 align-self-stretch bg_navix2" id="stat">
+                        <h1 class="display-6 fw-semibold fst-italic align-self-center pt-4">6712</h1>
+                        <p class="lead fw-normal">Navixians<br>on this tour</p>
+                    </div>
+                    <div class="pt-2 align-self-end bg_navix3" id="stat">
+                        <h1 class="display-6 fw-semibold fst-italic">&#8764;68448</h1>
+                        <p class="lead fw-normal">hours of<br>flight time</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-3 px-3" id="tour_register">
+                <p class="lead text-center">
+                    Why wait? Register now for the ISS&#8482; tour!
+                </p>
+                <button onclick="change_to_registration_page()" type="button" class="mb-4 btn mx-auto fs-4">Register</button>
+                <h4 class="pb-3 text-center"><mark>Important information! Read carefully before registering!</mark></h4>
+                <ul class="mb-3">
+                    <li>
+                        You will get a full refund if you cancel your booking within 24 hours of registration; later, 
+                        all refunds will be reduced to 80% of the tour's value. If you cannot attend the tour due to 
+                        external circumstances beyond your control, contact Navix immediately with the proper 
+                        documentation. After review, you can choose to have your tour date shifted into the future
+                        or receive a 90% refund.
+                    </li>
+                    <li>
+                        If there is anything about the mission parameters, training or quarantine that you feel doubtful 
+                        about, please view the appropriate pages on this website, or reach out to us immediately before
+                        registering.
+                    </li>
+                    <li>
+                        Safety is our number one concern, and the quarantine and training aspects of the tour cannot be 
+                        skipped. All people who do not complete the prerequisite training and quarantine will not be 
+                        allowed on the tour. We also reserve the right to deny access to any person who compromises the 
+                        safety of the tour, on any criteria as might be deemed appropriate. 
+                    </li>
+                    <li>
+                        Please note that this tour involves at least 70 hours of dedicated training and requires 17-18 days 
+                        of dedicated preparation and quarantine for the tour. You are requested to clear your schedule 
+                        a month prior to the tour. Please do not register if you cannot make the time. </strong>
+                    </li>
+                    <li>
+                        Failure to stick to the deadlines and schedule after payment will result in a 25% refund, and the 
+                        customer will be prohibited from the tour. The chosen tour date cannot be shifted in most 
+                        circumstances. If you miss the tour while satisfying prerequisite conditions, you will recieve no 
+                        refund.
+                    </li>
+                </ul>
+                <p class="fs-5 text-center mx-5 mt-0 mb-0 pb-0">
+                    This is just a summary of the conditions that apply to you as you undertake the ISS&#8482; tour. 
+                    You can find these terms and other important legal information at the <a href="../terms&conditions.html" 
+                    style="text-decoration: none; color: #ff6647;">terms and conditions</a> page.
+                </p>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </symbol>
+            <symbol id="instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </symbol>
+            <symbol id="twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </symbol>
+        </svg>
+        <div>
+            <hr>
+            <footer>
+                <p class="text-center">
+                    <img src="../img/logo.png" class="d-inline-block" id="logo">
+                    <img src="../img/NavixInWhite.png" class="d-inline-block" id="tour_footer_name"><br>
+                    &copy; 2023 Navix<br>
+                    All rights reserved.
+                </p>
+                <p class="text-center">
+                    Built for the 2022-23 TSA Webmaster Competition<br>
+                    <a href="../about.html#about_attribution" style="text-decoration: none; color: #ff9249;">Copyright Info</a>
+                </p>
+            </footer>
+        </div>
+        <!--DO NOT DELETE THESE SCRIPTS!-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <script src="../js/general-script.js"></script>
+        <script src="../js/tour-tour-script.js"></script>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+            const firebaseConfig = {
+                apiKey: "AIzaSyBN7pQWlr89wXQQZpPBQ8XSfh7-9F566OI",
+                authDomain: "navix-7afdf.firebaseapp.com",
+                projectId: "navix-7afdf",
+                storageBucket: "navix-7afdf.appspot.com",
+                messagingSenderId: "651586104958",
+                appId: "1:651586104958:web:038d4e72af531cfc12b22f",
+                measurementId: "G-ZGGFHSFX27"
+            };
+        
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+        </script>      
+    </body>
+</html>
