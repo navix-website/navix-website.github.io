@@ -1,4 +1,4 @@
-#**Navix**
+# **Navix**
 ***Website for the TSA Webmaster competition***
 
 **Members:** Hrutvik Palutla, Roger Peng, Monish Mehta, Tarun Kumar Vijay 
