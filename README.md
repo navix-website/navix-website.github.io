@@ -1,7 +1,7 @@
 # **Navix**
 ***Website for the TSA Webmaster competition***
 
-**Members:** Hrutvik Palutla, Roger Peng, Monish Mehta, Tarun Kumar Vijay 
+**Members:** Hrutvik Palutla, Monish Mehta, Tarun Kumar Vijay, Siddarth Sriram 
 
 *We're from RHS, Irving, Texas.*
 
